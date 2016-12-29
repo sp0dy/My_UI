@@ -27,5 +27,16 @@
         android:layout_height="wrap_content"
         android:maxLines="2"
         android:hint="Flower song"/>
-
+    <ImageView
+        android:id="@+id/img_ui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/aaa"/>
+    <ProgressBar
+        android:id="@+id/progress_ui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="100"/>
 </LinearLayout>
